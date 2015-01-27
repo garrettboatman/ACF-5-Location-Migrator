@@ -12,6 +12,7 @@ Your query string will be `example.com?migrateType=events&migrateField=location`
 Just go to that URL and the script will output some gross plain text to tell you what it did.
 ### What should my upgrade process be?
 (I'm gonna write more about this later. Email garrett.boatman@mac.com if you need this NOW) 
+
 1. Backup your DB.
 2. Place the whole contents of the php file into your functions.php. 
 3. Activate ACF 5(or Pro). Deactivate regular ACF and the redundant add-on(s).
