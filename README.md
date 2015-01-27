@@ -1,5 +1,5 @@
 # ACF-5-Location-Migrator
-This is a niche script that helps migrate the [ACF 4 "Location" field add-on](https://wordpress.org/plugins/advanced-custom-fields-location-field-add-on) data to the [ACF 5's core "Google Maps"](http://www.advancedcustomfields.com/resources/google-map/) field. 
+This is a niche, dirty-ass script that helps migrate the [ACF 4 "Location" field add-on](https://wordpress.org/plugins/advanced-custom-fields-location-field-add-on) data to the [ACF 5's core "Google Maps"](http://www.advancedcustomfields.com/resources/google-map/) field. If you use this wrong, it will fuck up your database, but it works! Make sure to back up your DB.
 ### Why it exists.
 You're pissed because the [Location field add-on](https://wordpress.org/plugins/advanced-custom-fields-location-field-add-on) doesn't support ACF 5. The [ACF 5 Google Map field](http://www.advancedcustomfields.com/resources/google-map/) basically replaces the need for the location field, but the data is saved differently in the database. Booooo! You switched the fields in ACF, but when you edit a post, the data is blank. 
 
